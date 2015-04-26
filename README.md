@@ -14,4 +14,5 @@ A repository created for the Course Project within the Data Science Specializati
 3. Two elements are added to this list. These are `subject` and `activity`. They are added at the begining and at the end of the list. 
 4. The elements in the list having `mean` or `std` are defined. The corresponding features are futher preserved for the final output. Thus **10299 observations** of **81 variables** are obtained.
 5. The activities were received form the file `activity_labels.txt` and corrected to be descriptive. In particularly, the names were made lower letters and `_` is ommited. 
-6. 
+6. The labels of the data set were also corected to be descriptive.
+7. Finally the second tidy data set called `tidy.agg` was created with the use of `aggregate()` function. It contains the average of each variable for each activity and each subject.
