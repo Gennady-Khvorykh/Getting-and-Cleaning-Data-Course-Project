@@ -12,4 +12,6 @@ A repository created for the Course Project within the Data Science Specializati
   + The function reads and merge all data into list with two data sets called `dataset`. Then one data set called `data` is created. It has **10299 observations** of **563 variables**.  
 2. The list of features is received from `features.txt`
 3. Two elements are added to this list. These are `subject` and `activity`. They are added at the begining and at the end of the list. 
-4. The elements in the list having `mean` or `std` are defined. The corresponding features are futher preserved for the final output. 
+4. The elements in the list having `mean` or `std` are defined. The corresponding features are futher preserved for the final output. Thus **10299 observations** of **81 variables** are obtained.
+5. The activities were received form the file `activity_labels.txt` and corrected to be descriptive. In particularly, the names were made lower letters and `_` is ommited. 
+6. 
