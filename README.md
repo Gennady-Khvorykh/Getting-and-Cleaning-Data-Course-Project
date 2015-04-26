@@ -10,4 +10,6 @@ A repository created for the Course Project within the Data Science Specializati
   + Its argument is a character vector with 2 elements: `c("test", "train")`. As seen the elements of the vector correspond to the subfolders, where the data sets are placed. These subfolders are down the folder `UCI HAR Dataset`, where the above R script is located.
   + The function reads the conten of subfolders with `list.files()` 
   + The function reads and merge all data into list with two data sets called `dataset`. Then one data set called `data` is created. It has 10299 observations of 563 variables.  
-2. 
+2. The list of features is received from `features.txt`
+3. Two elements are added to this list. These are `subject` and `activity`. They are added at the beginin and at the end of the list.
+4. 
