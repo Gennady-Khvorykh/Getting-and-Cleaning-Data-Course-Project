@@ -17,7 +17,7 @@ getData <- function(type){
 
 # Get and merge raw data
 dataset <- lapply(c("test", "train"), getData)
-data <- rbind(dataset[[1]],dataset[[2]]) #10299 observations of 561 variables
+data <- rbind(dataset[[1]],dataset[[2]]) #10299 observations of 563 variables
 
 # Get the list of features 
 features <- read.table("UCI HAR Dataset/features.txt", stringsAsFactors = F)
