@@ -11,5 +11,5 @@ A repository created for the Course Project within the Data Science Specializati
   + The function reads the conten of subfolders with `list.files()` 
   + The function reads and merge all data into list with two data sets called `dataset`. Then one data set called `data` is created. It has **10299 observations** of **563 variables**.  
 2. The list of features is received from `features.txt`
-3. Two elements are added to this list. These are `subject` and `activity`. They are added at the beginin and at the end of the list.
-4. 
+3. Two elements are added to this list. These are `subject` and `activity`. They are added at the begining and at the end of the list. 
+4. The elements in the list having `mean` or `std` are defined. The corresponding features are futher preserved for the final output. 
