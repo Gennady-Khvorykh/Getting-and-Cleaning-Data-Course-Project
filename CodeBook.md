@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #Code Book for the Course Project of Getting and Cleaning Data
 
 ##Project Description
@@ -13,3 +14,6 @@ The complete list of variables thus obtaine contains **561 element**. Is is avai
 To be provided.
 
 
+=======
+Project description will be provided.
+>>>>>>> origin/master
