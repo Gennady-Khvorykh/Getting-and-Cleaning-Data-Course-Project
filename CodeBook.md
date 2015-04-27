@@ -10,6 +10,6 @@ The complete list of variables thus obtaine contains **561 element**. Is is avai
 
 ##Creating the tidy datafile
 
-To be provided.
+For the creation of tidy datafile R script called `run_analysis.R` is written. Find out [how does the script work](README.md).
 
 
