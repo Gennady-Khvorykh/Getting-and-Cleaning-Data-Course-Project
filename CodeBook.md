@@ -1,53 +1,15 @@
----
-output: html_document
----
-# Codebook template
-Your name here  
-The date here  
+#Code Book for the Course Project of Getting and Cleaning Data
 
-## Project Description
-Short description of the project
+##Project Description
+The project is aim to get tidy data set from raw data collected during the Human Activity Recognition Using Smartphones experiments. The raw data were divided into two data sets, the training and testing ones. The task of the Course Project is to merge the raw data into one file [tidy.txt](tidy.txt), provide the descriptive names for its content and select certain columns of data for future exploration.  
 
-##Study design and data processing
+##Collection of the raw data
+According to the [description of the research](resources/README.txt), the experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, the reserches captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz.
 
-###Collection of the raw data
-Description of how the data was collected.
-
-###Notes on the original (raw) data 
-Some additional notes (if avaialble, otherwise you can leave this section out).
+The complete list of variables thus obtaine contains **561 element**. Is is available in [features.txt](resources/features.txt)
 
 ##Creating the tidy datafile
 
-###Guide to create the tidy data file
-Description on how to create the tidy data file (1. download the data, ...)/
+To be provided.
 
-###Cleaning of the data
-Short, high-level description of what the cleaning script does. [link to the readme document that describes the code in greater detail]()
 
-##Description of the variables in the tiny_data.txt file
-General description of the file including:
- - Dimensions of the dataset
- - Summary of the data
- - Variables present in the dataset
-
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
-
-###Variable 1 (repeat this section for all variables in the dataset)
-Short description of what the variable describes.
-
-Some information on the variable including:
- - Class of the variable
- - Unique values/levels of the variable
- - Unit of measurement (if no unit of measurement list this as well)
- - In case names follow some schema, describe how entries were constructed (for example time-body-gyroscope-z has 4 levels of descriptors. Describe these 4 levels). 
-
-(you can easily use Rcode for this, just load the dataset and provide the information directly form the tidy data file)
-
-####Notes on variable 1:
-If available, some additional notes on the variable not covered elsewehere. If no notes are present leave this section out.
-
-##Sources
-Sources you used if any, otherise leave out.
-
-##Annex
-If you used any code in the codebook that had the echo=FALSE attribute post this here (make sure you set the results parameter to 'hide' as you do not want the results to show again)
